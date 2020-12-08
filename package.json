@@ -30,7 +30,7 @@
     "publish": {
       "provider": "github",
       "releaseType": "release",
-      "repo": "review-realeases"
+      "repo": "review-releases"
     },
     "files": [
       "index.js",
