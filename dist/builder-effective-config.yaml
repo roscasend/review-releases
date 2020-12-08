@@ -1,0 +1,26 @@
+directories:
+  output: dist
+  buildResources: build
+appId: uk.co.rhythmstix.review
+productName: Re-View
+publish:
+  provider: github
+  releaseType: release
+  repo: review-releases
+files:
+  - filter:
+      - index.js
+      - assets/*
+      - splash_assets/*
+      - capacitor.config.json
+      - app/**
+mac:
+  category: public.app-category.education
+  target: dmg
+  icon: assets/appIcon.png
+win:
+  target: nsis
+  icon: assets/appIcon.ico
+  certificateFile: ../credential/CERTIFICATE.pfx
+  certificatePassword: <stripped sensitive data>
+electronVersion: 8.5.5

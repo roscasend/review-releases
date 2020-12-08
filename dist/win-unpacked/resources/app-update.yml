@@ -1,0 +1,7 @@
+owner: mbash12
+repo: review-releases
+provider: github
+releaseType: release
+updaterCacheDirName: re-view-updater
+publisherName:
+  - Rhythmstix Ltd
