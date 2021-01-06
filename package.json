@@ -1,6 +1,6 @@
 {
   "name": "Re-View",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Lyrics And Slide Viewer",
   "main": "index.js",
   "scripts": {
